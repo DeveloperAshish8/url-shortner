@@ -1,0 +1,16 @@
+# Root .gitignore for url-shortner project
+
+# Ignore node_modules in both client and server
+client-app/node_modules/
+server-app/node_modules/
+
+# Ignore environment files in both client and server
+client-app/.env
+server-app/.env
+**/.env
+
+
+# Optional: Ignore build outputs if needed
+client-app/build/
+server-app/dist/
+
